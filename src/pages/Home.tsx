@@ -45,9 +45,9 @@ export function Home(){
           setGretting('Good morning');
       }
       else if(currentHour >= 12 && currentHour < 18){
-          setGretting('Good afternoon');
+          setGretting('Good afternoon!');
       }else{
-          setGretting('Good night');
+          setGretting('Good night!');
       }
       
   }, [])
@@ -57,7 +57,7 @@ export function Home(){
         
 
         <Text style={styles.title} testID="welcome">
-            Welcome, Gabriel 
+            Welcome, Gabriel Martins!
         </Text>  
 
         <Text style={styles.greetings}>
