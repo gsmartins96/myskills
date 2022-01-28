@@ -79,7 +79,7 @@ export function Home(){
         />
 
         <Text style={[styles.title, { marginVertical: 50}]}> 
-            MySkills
+            My Skills (EN-US)
         </Text>             
         
         {
